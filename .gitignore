@@ -154,4 +154,7 @@ ipython_config.py
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
-*$py.class
+*$py.class./.git/objects/pack/pack-39adcd0725663ae208c6215e788f288a80e91071.pack
+./.git/objects/41/834859054133be7cc8b7377fa495628a784b03
+./zippedData/title.basics.aug23.tsv.gz
+zippedData/title.basics.aug23.tsv.gz
