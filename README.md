@@ -18,7 +18,7 @@ The following data questions posed as a guide for my analysis:
 
 * What is the relationship between production budget and global profit/ profitability?
 * Does release month have a relationship on ROI?
-* Are certain genres more profitable than other?
+* Are certain genres more profitable than others?
 * Is there a relationship between average rating and profitability?
 * What is the relationship between runtimes and average ratings?
 
@@ -31,7 +31,7 @@ For this analysis, data was sourced from The Numbers, The Movie Database (TMDb),
 #### The Numbers
 The Numbers data provided financial data for 5,782 movies and was used to determine the profitability of each movie. For this analysis, the target data was the production budget and the worldwide gross, which were used to calculate ROI. ROI was consequently used to assess whether a movie was considered a box office success.
 
-#### TMDb¶
+#### TMDb
 TMDb is a community built movie and TV database and their dataset provides information regarding genre, release date, vote average, and lifetime popularity score, all of which are factors that may determine the success of a film. I joined this dataset to The Numbers dataset to analyse the relationship between genre, vote average and the release month with profitability/ ROI.
 
 #### IMDb
@@ -74,7 +74,7 @@ ROI and global profits tended to be higher during the summer months of the North
 
 Animation, Adventure, Fantasy and Family films tended to yield a high ROI and global profit. While Documentaries and Horror films had the highest ROI, as they were mostly low-end budget films they did not produce high global profits.
 
-![Genre](images/profit_bygenre.png)
+![Genre](images/profit_by_genre.png)
 
 There appears to be no correlation between vote average and ROI (r=0.01) and a low positive correlation between vote average and global profit (r=0.30). 
 
