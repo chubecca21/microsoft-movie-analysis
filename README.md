@@ -78,7 +78,7 @@ Animation, Adventure, Fantasy and Family films tended to yield a high ROI and gl
 
 There appears to be no correlation between vote average and ROI (r=0.01) and a low positive correlation between vote average and global profit (r=0.30). 
 
-An increase in runtime minutes corresponded with an increase in the average rating of a film. Note that films under 90 minutes and over 180 minutes had significantly less number of votes than films between 90 to 180 minute on average. 
+An increase in runtime minutes corresponded with an increase in the average rating of a film. Note that films under 90 minutes and over 180 minutes had significantly less number of votes than films between 90 to 180 minute on average, which may skew results. My recommendation would be to make a movie between 150 to 180 minutes for a higher user rating, however it is important to note that there is correlation with profitability.
 
 ![Runtimes](images/runtimes.png)
 
@@ -89,7 +89,7 @@ Based on this analysis, the following actionable insights are recommended:
 
 * **Invest in a high-end production budget of at least 50 million USD to maximise profitability.** While low-budget movies have the potential to yield significant ROI, profits will remain low. High-end films not only yield a high ROI but also a signficant global profit.
 * **Produce an Animated film within the Adventure, Fantasy, and/or Family genre.** The median global profit of an Animation film is over $200MM with a median ROI of 200%. Adventure, Fantasy and Family genres have also shown to yield high ROI and global profits. 
-* **Release the film during July.** July sees the highest median ROI and greatest median global profits. This month corresponds with summer holidays in the Northern hemisphere and it is likely more people, particularly families, are watching movies during this break.
+* **Release the film during the summer months in the Northern hemisphere.** July sees the highest median ROI and greatest median global profits. This month corresponds with summer holidays in the Northern hemisphere and it is likely more people, particularly families, are watching movies during this break. Novemeber and Feburary also saw a high median ROI, so may be suitable for movies related to Valentine's Day or Christmas.
   
 ## Limitations and Next Steps
 ***
