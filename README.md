@@ -4,13 +4,11 @@
 
 
 ## Overview
-***
 
 This project analyses the types of films that have been the most successful at the box office from 2009 to 2019. Success was defined predominately by ROI and global profit, however audience sentiment was also taken into consideration. Descriptive analysis found that high-budget films tended to yield the best ROI and profit, and the best months to release a film was during July and November. Animation, Adventure, Fantasy and Family films were also the most profitable, while audiences rated movies with a runtime between 150 to 180 minutes highly although there appeared to be no relationship between average rating and profitability. These actionable insights can be used as guide for Microsoft to create a movie with the highest chance of commercial success.
 
 
 ## Business Problem
-***
 
 Microsoft is looking to create a new movie studio that produces profitable original video content and would like to know the types of movies that are the most successful at the box office. Based on an exploratory data analysis, they are looking for actionable insights that can be implemented to create movies with the highest chance of commercial success and popularity.
 
@@ -24,7 +22,6 @@ The following data questions posed as a guide for my analysis:
 
 
 ## Data
-***
 
 For this analysis, data was sourced from The Numbers, The Movie Database (TMDb), and IMDb, all of which are online database with extensive metadata for movies.
 
@@ -44,7 +41,6 @@ Note: Given the exhaustive nature of ```title.basics.tsv.gz```, I dropped irrele
 
 
 ## Methods
-***
 
 This project used exploratory and descriptive analysis to visualise the relationships between film variables with profitability. I began by cleaning the dataframes to ensure there were no null values or duplicates, and any irrelevant information was dropped. To ensure that we were looking at recent data, movie release years were filtered between 2009 to 2019 for The Numbers and TMDb dataframe, and 2009 to 2023 for IMDb. I also created the following metrics to assess the success of the film:
 
@@ -58,7 +54,6 @@ I joined The Numbers and TMDb dataframes to explore the relationship between pro
 
 
 ## Results
-***
 
 There was a moderate to strong positive correlation between production budget and global profit (r=0.68). As we moved up the production budget axis we saw more varability.
 
@@ -83,7 +78,6 @@ An increase in runtime minutes corresponded with an increase in the average rati
 ![Runtimes](images/runtimes.png)
 
 ## Conclusions
-***
 
 Based on this analysis, the following actionable insights are recommended:
 
@@ -92,7 +86,6 @@ Based on this analysis, the following actionable insights are recommended:
 * **Release the film during the summer months in the Northern hemisphere.** July sees the highest median ROI and greatest median global profits. This month corresponds with summer holidays in the Northern hemisphere and it is likely more people, particularly families, are watching movies during this break. Novemeber and Feburary also saw a high median ROI, so may be suitable for movies related to Valentine's Day or Christmas.
   
 ## Limitations and Next Steps
-***
 
 Data for the films was limited to 2019, and we were therefore unable to take into consideration the impact of COVID-19. It would be recommended to conduct this analysis with data from 2020 onwards for a more accurate representation of the current landscape of film. Furthermore, streaming services have impacted the way audiences have consumed movies in the last decade and it would be interesting to see how it has impacted box office numbers and the profitability of movies on streaming platforms.
 
